@@ -1,0 +1,42 @@
+{
+    "name": "@nascentdigital/errors",
+    "version": "1.0.0",
+    "description": "A reusable set of Javascript / Typescript errors for browser and node applications.",
+    "keywords": [
+        "error",
+        "javascript",
+        "typescript",
+        "browser",
+        "node"
+    ],
+    "author": "Simeon de Dios <simeon@nascentdigital.com>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nascentdigital/errors.git"
+    },
+    "bugs": {
+        "url": "https://github.com/nascentdigital/errors/issues"
+    },
+    "homepage": "https://github.com/nascentdigital/errors#readme",
+    "files": [
+        "dist"
+    ],
+    "main": "dist/index.js",
+    "module": "dist/index.es.js",
+    "jsnext:main": "dist/index.es.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "prepare": "npm run build",
+        "build": "tsc",
+        "test": "jest"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@jest/test-sequencer": "^26.0.1",
+        "@types/jest": "^25.2.3",
+        "jest": "^26.0.1",
+        "ts-jest": "^26.0.0",
+        "typescript": "^3.9.3"
+    }
+}
