@@ -1,6 +1,6 @@
 {
     "name": "@nascentdigital/errors",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A reusable set of Javascript / Typescript errors for browser and node applications.",
     "keywords": [
         "error",
