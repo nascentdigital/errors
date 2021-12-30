@@ -35,7 +35,7 @@ describe("ArgumentError", () => {
             }
 
                 // validate caught exception
-            catch (e) {
+            catch (e: any) {
                 expect(e).toBe(error);
                 expect(e).toBeInstanceOf(ArgumentError);
                 expect(e.name).toBe("ArgumentError");
@@ -51,7 +51,7 @@ describe("ArgumentError", () => {
             }
 
             // validate caught exception
-            catch (e) {
+            catch (e: any) {
                 expect(e).toBe(error);
                 expect(typeof e.message).toBe("string");
                 expect(e.message.length).toBeGreaterThan(0);
@@ -76,7 +76,7 @@ describe("ArgumentError", () => {
             }
 
             // validate caught exception
-            catch (e) {
+            catch (e: any) {
                 expect(e).toBe(error);
                 expect(e).toBeInstanceOf(ArgumentError);
                 expect(e.name).toBe("ArgumentError");
@@ -92,7 +92,7 @@ describe("ArgumentError", () => {
             }
 
             // validate caught exception
-            catch (e) {
+            catch (e: any) {
                 expect(e).toBe(error);
                 expect(typeof e.message).toBe("string");
                 expect(e.message).toBe(message);

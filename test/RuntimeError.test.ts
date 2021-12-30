@@ -37,7 +37,7 @@ describe("RuntimeError", () => {
         }
 
         // validate caught exception
-        catch (e) {
+        catch (e: any) {
             expect(e).toBeInstanceOf(clazz);
             expect(e.name).toBe(clazzName);
             expect(e.message).toBe(message);
