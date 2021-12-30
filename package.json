@@ -20,7 +20,8 @@
     },
     "homepage": "https://github.com/nascentdigital/errors#readme",
     "files": [
-        "dist"
+        "dist",
+        "src"
     ],
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
